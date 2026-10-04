@@ -16,7 +16,7 @@ class InspectorClaude < Formula
   on_macos do
     on_arm do
       url "https://github.com/danielfrey/inspector_claude/releases/download/v0.1.0/inspector_claude-darwin-arm64"
-      sha256 "REPLACE_WITH_SHA256_DARWIN_ARM64"
+      sha256 "7f42cf0cd49db585f85f6131853301580c34cba281f0cfd5ded65f706711790c"
 
       def install
         bin.install "inspector_claude-darwin-arm64" => "inspector_claude"
@@ -25,7 +25,7 @@ class InspectorClaude < Formula
 
     on_intel do
       url "https://github.com/danielfrey/inspector_claude/releases/download/v0.1.0/inspector_claude-darwin-amd64"
-      sha256 "REPLACE_WITH_SHA256_DARWIN_AMD64"
+      sha256 "d45c814b53f3b0b15d6a3a3ea2f810ec4c30d20ec8032a781757cdb33c5be7f4"
 
       def install
         bin.install "inspector_claude-darwin-amd64" => "inspector_claude"
